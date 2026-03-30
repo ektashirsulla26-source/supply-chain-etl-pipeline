@@ -95,10 +95,7 @@ supply-chain-etl-pipeline/
 │   ├── DataCoSupplyChainDataset.csv    ← raw dataset (not pushed to GitHub)
 │   ├── clean_data.csv                  ← transformed data (gitignored)
 │   └── predictions.csv                 ← ML model output
-│
-├── 📂 powerbi/
-│   └── Dashboard_updated.pbix                  ← Power BI dashboard file
-│
+├── Dashboard_updated.pbix              ← Power BI dashboard file
 ├── extract.py                          ← Stage 1: Extract
 ├── transform.py                        ← Stage 2: Transform
 ├── load.py                             ← Stage 3: Load to PostgreSQL
@@ -292,10 +289,8 @@ M.Sc. Statistics | Data Analyst | Aspiring Data Scientist
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
+## 📄 Note
+This project is built for portfolio and learning purposes.
 ---
 
 *Built with ❤️ using Python, PostgreSQL, Scikit-learn and Power BI*
